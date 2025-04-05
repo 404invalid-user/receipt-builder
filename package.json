@@ -1,0 +1,28 @@
+{
+  "name": "receipt-builder",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "gen-img": "npx capacitor-assets generate --android --icon-background-source \"#73C1D8\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.7.4",
+    "@capacitor/cli": "^5.7.4",
+    "@capacitor/core": "^5.7.4",
+    "@capacitor/filesystem": "^6.0.1",
+    "axios": "^1.6.8",
+    "capacitor-plugin-ledcontrol": "^1.5.3",
+    "capacitor-plugin-serialprinter": "^2.7.3",
+    "qrcode": "^1.5.3",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}

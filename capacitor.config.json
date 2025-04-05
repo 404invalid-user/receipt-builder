@@ -1,0 +1,13 @@
+{
+  "appId": "xyz.invaliduser.receiptbuilder",
+  "appName": "Receipt Builder",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
